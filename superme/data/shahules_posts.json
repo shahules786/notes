@@ -1,0 +1,612 @@
+{
+  "7315040757386481665": {
+    "content": "One of the most common questions I get during Ragas' office hour calls is, “Can I evaluate and improve my AI system without any human intervention?”  My answer..\n\nNo, you can’t. Why is this the case? Evaluation and improving AI systems are fundamentally an alignment problem. That is, AI doesn’t know what you perceive as acceptable, and you would need to communicate and concretise this.  This process would also help you to understand what is an acceptable response in your application.  It is reasonable to try to automate it after you have provided enough signals, but you certainly can’t automate it without doing that initial grunt work. \n\nDM or schedule an office hour if you’re thinking of improving your AI systems.",
+    "url": "https://www.linkedin.com/posts/shahules_one-of-the-most-common-questions-i-get-during-activity-7315040757386481665-Cnrg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2d"
+  },
+  "7314502692842676224": {
+    "content": "This is the 1000th time AI influencers have killed RAG in the last two years.",
+    "url": "https://www.linkedin.com/posts/shahules_this-is-the-1000th-time-ai-influencers-have-activity-7314502692842676224-cbJ0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3d"
+  },
+  "7313591228011294720": {
+    "content": "Evaluating LLM agents in complex, multi-turn interactions is still an open challenge. Zendesk AI proposes a new approach: automated test generation using flow graphs. Here’s how it works 👇\n\nThe work can be divided into two parts. The first part deals with automated test generation, and the second part deals with actual evaluations and results.\n\n1️⃣ Automated test generation\n\nThe core idea is: given a user intention (e.g., cancel my order) and a procedure the LLM agent should follow in that case (e.g., if the customer did not receive the order, do X; else, do Y), an LLM is used to generate what they call flow graphs. These are nodes and edges representing the control flow for a given user intent and procedure.\n\nNext, given a flow graph, a random walk algorithm is used to identify multiple scenarios. For example: The user wants to cancel the order but doesn’t have the order ID. The user wants to cancel the order and has shared an incorrect order ID.\n\nThese individual scenarios make up the overall test dataset.\n\n2️⃣ Evaluation\n\nEach test scenario is then fed into the LLM, along with the expected response (i.e., the ideal next step the agent should take). Accuracy is measured using the LLM itself as a judge.\n\n⭐ My observations\n\nAlthough the proposed method is interesting, these are LLM workflows where the model is constrained by hard rules. They can’t truly be considered LLM agents.\n\nThe automated test generation approach works only when the procedure can be described in simple natural language—which is not the case for many advanced use cases\n\nThe unit-test-based approach to evaluating workflows is also difficult to interpret at an aggregate level. For instance, it doesn’t answer: Which of LLM1 or LLM2 provides a better user experience when integrated into my product?)\n\nsource: https://lnkd.in/dsWjUcFN",
+    "url": "https://www.linkedin.com/posts/shahules_evaluating-llm-agents-in-complex-multi-turn-activity-7313591228011294720-agpe?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "6d"
+  },
+  "7309974789077549056": {
+    "content": "The wittiest reverse UNO card I’ve seen is AI engineers storing prompts in LLM observability tools. The whole point of observability is to ensure reliability— now the reliability of your app depends on the tool that’s supposed to be monitoring the reliability of the app itself.",
+    "url": "https://www.linkedin.com/posts/shahules_the-wittiest-reverse-uno-card-ive-seen-is-activity-7309974789077549056-UEJf?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2w"
+  },
+  "7308525244581916673": {
+    "content": "How did Lovable go from an AI app that worked sometimes to the product we see today?\n\nHigh-growth AI team focuses on evals - the only way to improve AI systems.",
+    "url": "https://www.linkedin.com/posts/shahules_how-did-lovable-go-from-an-ai-app-that-worked-activity-7308525244581916673-GKlv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2w"
+  },
+  "7307430647294234626": {
+    "content": "“My AI app works 80% of the time, so I’m not worried about improving it.”\n\n\nThis is a common pitfall in ML. Any decent model or LLM workflow will handle 80% of cases. Now then what sets your product apart from competitors?\n\nThe remaining 20% lives in the long tail—edge cases, unpredictable inputs, and failure modes that you miss. A strong ML feedback and iteration loop is the only way to tackle this.\n\nCollect edge cases through feedback → Add to test data → Iterate\n\nIf you do it right, having a strong evals workflow can be a competitive advantage, as this is the only way one can literately improve their AI applications.",
+    "url": "https://www.linkedin.com/posts/shahules_my-ai-app-works-80-of-the-time-so-im-activity-7307430647294234626-cvI9?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3w"
+  },
+  "7304878761827573761": {
+    "content": "Ragas office hours are becoming a big hit among the community. In just the last week we did office hours with 5 of the Fortune 50 companies building LLM apps. What do we do differently from all others?\n\nWe don’t recommend tools instead we recommend processes and opinions based on what has worked for us in solving evals for many companies. Here are some of the main topics we discussed\n\n→ Techniques to create high-quality synthetic test data\n→ Configuring LLM as a judge so that it aligns with your consumer\n→ Effective data collection and annotation schemes\n→ Simulations for testing LLM agents\n→ Red-teaming and post-production analytics\n\nWhich one of these topics do you want to know more about?\nFeel free to book an office hour here",
+    "url": "https://www.linkedin.com/posts/shahules_office-hours-ragas-activity-7304878761827573761-whv0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4w"
+  },
+  "7303449295922286593": {
+    "content": "A fun weekend project turned out to be an example on how to evaluate simple LLM agents using simulation. I was surprised to see how brittle even the latest LLMs are to different edge-case scenarios. ⭐️\n\nApplication\nLLM is an agent collecting personal user information (name, SSID, postal code) by interacting with users in a chat interface.\n\nChallenges\nthe application is straightforward to build but hard to test. This is because in production the LLM may encounter users from varied backgrounds and personas and this may lead to incorrect results.\n\nEvaluation\nCreated synthetic data containing persona (skeptic user, anxious user, etc) behavior, and ground truth data. The idea is to spawn user simulations using these points and validate if the LLM agent was able to collect all information present in the ground truth from the user agent at the end of the conversation.\n\nResults and observations\nBoth gpt4 and 4o struggle to collect all the information required when encountering out-of-normal personas ( for example a user skeptical about chatbot collecting his information)\n\nPrompting can help steer the model in way to interact with these users properly to collect all the information required.\n\nI would love to help you out If you’re struggling with evaluating your LLM agents. Feel free to DM me. \n\nThe problem statement was inspired by https://lnkd.in/ghJ5pgeb",
+    "url": "https://www.linkedin.com/posts/shahules_a-fun-weekend-project-turned-out-to-be-an-activity-7303449295922286593-amk6?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7302946118953234432": {
+    "content": "Would you take responsibility for something that you don’t understand and can‘t test? \n\n#GenAI applications at work can be deceptively democratic for non-technical users - easy to use, but difficult to evaluate and debug systematically. No surprises, then, that genuine adoption at scale is simply not happening, yet.\n\nIf you are a business/ product owner, or their risk/ compliance partner, come join us for the next AI Verify Foundation Community event, hosted jointly with folks at The Generative Beings and Amazon Web Services (AWS). 19th Mar, 5pm.\n\nWhat can you expect? Jargon-free discussions, a few targeted demos, and the confidence that your domain knowledge can help your technical partners build GenAI systems that really work.\n\n🏁 A business-friendly overview of GenAI application Testing\n\n🪧 Five business-friendly demos on key concepts\n1️⃣ Safety Benchmarks: will your app spout violent, harmful or criminal stuff to users? AIVF product manager Peng ZHAO will show how off-the-shelf benchmarks on our Moonshot platform can help test for that\n2️⃣ #RedTeaming: can a malicious, or mischievous, wreak financial, security or reputation damage by breaking your app? Alex Leung at AI security specialist AIFT/ Vulcan Labs will show you how a human expert, or another AI system, could be used to stress test your app\n3️⃣ Accuracy & #hallucinations: is your app making up stuff? How do you know the answer is actually based in the internal content it was meant to base it upon? Shahul ES/ Jithin James - founders of one of the world’s most popular open source #llmeval projects (Ragas) - will walk you through that bit\n4️⃣ #AIGuardrails: does your live app break the rules you have set, and tested beforehand? Shreya Rajpal/ Safeer Mohiuddin - founders of another hugely popular open source project Guardrails AI will show how you can keep your app on track in production\n(Ragas and Guardrails are SF based, so we’ll record their demos in advance)\n5️⃣ Bring it together: Alessandro Cerè from our co-hosts, AWS, will show how they bring many of these capabilities fit together in their #Bedrock platform\n\n🥂 Networking & F&B afterwards\n\nPlaces are limited, so please register interest early! (Link in comments)\n🗓️ Date: 19 March 2025 \n⏲️ 5-7pm (registrations start at 4.30)\n📍 AWS offices, #Singapore 🇸🇬",
+    "url": "https://www.linkedin.com/posts/shameekkundu_genai-redteaming-hallucinations-activity-7302935838374400001-3El1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7302526679577505792": {
+    "content": "Can specialised evaluation models outperform general purpose models? Selene-1 claims it can.\n\nSelene-1 is a frontier model for evaluation released by atla . Selene-1 outperforms general purpose models on common evaluation benchmarks. Few points I really liked above Selene-1:\n1️⃣ Ability to score, classify, and rank responses.\n2️⃣ Ability to align the steer the evaluator easily.\n\nWe at Ragas will be integrating specialised evaluation models into Ragas so our users can switch between general purpose and specialised models on the basis of use-case.",
+    "url": "https://www.linkedin.com/posts/shahules_can-specialised-evaluation-models-outperform-activity-7302526679577505792-q1yC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7301285175177490432": {
+    "content": "We met with Hamel H. for a quick chat on evals and improving LLM applications. We discussed LLMOps, evals, and developer education. Hamel emphasized that many challenges in building LLM apps stem from a lack of data literacy, which he’s addressing through his content efforts. I see a parallel gap in mature tooling and best practices—something we’re tackling with Ragas as an open-source, community-driven product.",
+    "url": "https://www.linkedin.com/posts/shahules_we-met-with-hamel-h-for-a-quick-chat-on-activity-7301285175177490432-48nw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7300912576790454274": {
+    "content": "LLM agents are powerful, but how do we actually measure their effectiveness? Here are four key metrics that have worked well for us.\n\n🏆 Agent Goal Accuracy – Did the agent reach the expected outcome? This metric focuses purely on success or failure.\n⚡ Agent Path Efficiency – How efficiently did the agent reach the goal? Some paths are better than others.\n📈 Agent Progression Rate – How much progress did the agent make at each step? Define milestones to track it.\n🔄 Agent Consistency – Does the agent produce the same results when given the same inputs? Stability matters.\n\nHave you tried different ways to evaluate agents? I’d love to hear what worked (or didn’t) for you.",
+    "url": "https://www.linkedin.com/posts/shahules_llm-agents-are-powerful-but-how-do-we-actually-activity-7300912576790454274-B4Dl?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7299854358261719040": {
+    "content": "How do you evaluate your LLM-based evaluator?\nThis is something many AI engineers miss when they set up automated evals. But without this, you wouldn’t even know if your evals are broken or not. Here’s how you can do it ✨\n\n1 Create the test data: collect test data containing samples to be evaluated.\n2 Get Human Ratings: Have actual people score these samples using your chosen criteria (correctness, clarity, style, etc.). These ratings serve as your “ground truth.”\n3 Use the LLM to Judge: Use the same instructions or rubric for the LLM to score the identical samples. Now you have two sets of scores: human vs. LLM.\n4 Compare the two: Measure how well they align using:\n    - Cohen’s Kappa for categorical labels (e.g., pass/fail, 1–5 stars)\n    - Pearson or Spearman Correlation for continuous scores (if you’re using a numerical scale).\n5 Check the Correlation Coefficient: The closer it is to 1 (or a higher kappa), the stronger the agreement between the LLM’s judgment and human judgment. A high correlation = a more trustworthy LLM evaluator.\n\n[1] https://lnkd.in/gqpJWX8d\n[2] https://lnkd.in/gXaA-MnC",
+    "url": "https://www.linkedin.com/posts/shahules_how-do-you-evaluate-your-llm-based-evaluator-activity-7299854358261719040-kh8i?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7297772052831252481": {
+    "content": "Evaluating long-memory agents is rarely discussed, but it is a crucial application of LLMs that ensures a personalized experience when interacting with them. Here are two of the most interesting papers on this topic ⭐️\n\n1️⃣ Evaluating Very Long-Term Conversational Memory of LLM Agents from Snapchat \n2️⃣ Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models from GoodAI\n\nThe first challenge in this area is the lack of open datasets available for evaluating long-memory agents. Both papers begin by proposing methods to create synthetic data for this purpose. The Snapchat team built LoCoMo [1] by first synthesizing personas, then generating temporal events in each persona’s life (ordered chronologically), and finally synthesizing conversations that included multimedia document sharing, connecting personas and events. GoodAI’s approach involves creating hardcoded scenarios, such as ordering food from a restaurant, and establishing a predefined correct path that the agent should follow if it has successfully memorized the events and instructions.\n\nOnce the datasets are created, both works evaluate agent performance by defining different query types. Snapchat’s work focuses on traditional single-hop, multi-hop, and temporal reasoning queries, among others [1]. GoodAI’s work incorporates tests inspired by cognitive theory, such as episodic memory and conflicting information handling[2].\n\nFor metrics, both papers use a combination of traditional methods like ROUGE and newer LLM-based evaluation techniques. In both studies, the authors also observed instances where LLMs, acting as judges, failed due to alignment issues.",
+    "url": "https://www.linkedin.com/posts/shahules_evaluating-long-memory-agents-is-rarely-discussed-activity-7295493625549836288-yaum?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7297313925488906240": {
+    "content": "I’m very happy to be a small part of this amazing book—Unlocking Data with Generative AI and RAG. Contrary to the general approach of going fully theoretical, I loved that Keith Bourne  covers both the fundamentals and concretizes the concepts using practical, hands-on implementations. I’m happy that people are finding it useful.\n\nCheck out the book here: https://lnkd.in/gMDH_4_H",
+    "url": "https://www.linkedin.com/posts/shahules_im-very-happy-to-be-a-small-part-of-this-activity-7297313925488906240-Ir3Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7295493625549836288": {
+    "content": "Evaluating long-memory agents is rarely discussed, but it is a crucial application of LLMs that ensures a personalized experience when interacting with them. Here are two of the most interesting papers on this topic ⭐️\n\n1️⃣ Evaluating Very Long-Term Conversational Memory of LLM Agents from Snapchat \n2️⃣ Beyond Prompts: Dynamic Conversational Benchmarking of Large Language Models from GoodAI\n\nThe first challenge in this area is the lack of open datasets available for evaluating long-memory agents. Both papers begin by proposing methods to create synthetic data for this purpose. The Snapchat team built LoCoMo [1] by first synthesizing personas, then generating temporal events in each persona’s life (ordered chronologically), and finally synthesizing conversations that included multimedia document sharing, connecting personas and events. GoodAI’s approach involves creating hardcoded scenarios, such as ordering food from a restaurant, and establishing a predefined correct path that the agent should follow if it has successfully memorized the events and instructions.\n\nOnce the datasets are created, both works evaluate agent performance by defining different query types. Snapchat’s work focuses on traditional single-hop, multi-hop, and temporal reasoning queries, among others [1]. GoodAI’s work incorporates tests inspired by cognitive theory, such as episodic memory and conflicting information handling[2].\n\nFor metrics, both papers use a combination of traditional methods like ROUGE and newer LLM-based evaluation techniques. In both studies, the authors also observed instances where LLMs, acting as judges, failed due to alignment issues.",
+    "url": "https://www.linkedin.com/posts/shahules_evaluating-long-memory-agents-is-rarely-discussed-activity-7295493625549836288-yaum?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1mo"
+  },
+  "7293328364432408576": {
+    "content": "One of the bottlenecks in evaluating LLM systems early on is the scarcity of evaluation samples. Over the past year, we have extensively explored synthetic data generation for evaluating RAG and agentic systems, and these are some of our observations. ✨\n\nThe expected outcome here is clear: we need to generate a sufficient number of queries that are both diverse and representative of what we expect in production. Contrasting this with synthetic data generation for training, our priority is not just quantity but also high quality and diversity. The margin for error is much smaller than in training scenarios.\n\nThere are three main challenges and corresponding solutions:\n\n1. Inducing diversity: This can be addressed by conditioning the LLM on one or multiple variables while generating queries or scenarios. Conditioning LLM generation on predefined variables such as persona, seed terms, etc., can be highly effective. For example, generating a query from a given chunk conditioned on a persona (“a math professor”) and a seed term (“<word from chunk>”) ensures greater variation.\n\n2. Making the queries representative of expected production queries: This is more challenging than the first issue. While there hasn’t been extensive research on this, some strategies we’ve explored include sampling a few queries from production and using them as seeds for generating synthetic data. Additionally, extracting scenarios, query types, etc., from production data using an LLM and later reusing them as seed terms for conditioning has proven to be an effective method.\n\n3. Measuring the quality of synthetic test data: This is the hardest part. However, since the generated samples are reviewable in manageable batches (5–20 samples at a time), we use human annotators to review and accept or reject the generated samples.\n\nIf you’d like to read more about these techniques, here’s a blog where we have covered most of the research on synthetic data generation across various use cases. https://lnkd.in/gBxdW8qD",
+    "url": "https://www.linkedin.com/posts/shahules_all-about-synthetic-data-generation-activity-7293328364432408576-uzEL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7292247994014277632": {
+    "content": "Ensuring that an LLM judge aligns with human judgment is a critical challenge for evaluation.  We explored various automatic prompt optimization techniques to achieve this and, in the process, gained valuable insights.\n\nHere is a summary of these techniques. 👉🏽\n\nAt its core, prompt optimization is an optimization problem that involves two steps\n• Generating a diverse set of prompt candidates as a search space.\n• Using a predefined metric as a loss function to evaluate and select the best prompts for a given task or LLM pipeline.\n\n1. DSPy-based\nOne of the earliest and most well-known approaches comes from DSPy [1]. Several methods have been proposed under DSPy, including:\n• Selecting random few-shot examples from the training sample for each query.\n• Using OPRO, a prompt optimizer that samples different candidate prompts by leveraging an LLM and using training dataset sample view along with an overview/summary of the pipeline and tasks. The best prompt is then selected from the generated samples.\n\n2. Gradient-Based Methods Using Textual Feedback\nAnother line of work involves refining prompts using LLM-generated textual feedback as gradients:\n• TextGrad [2] optimizes prompts by iteratively refining them based on LLM feedback.\n• PROMST [3] adopts a similar approach, using feedback to iteratively enhance the prompt or pipeline.\n\n3. Evolutionary Algorithms for Prompt Optimization\nEvolution-based algorithms have also been explored for prompt generation.\n• PhaseEvo [4] is a notable example where techniques like mutation and crossover are used to iteratively generate and refine prompt candidates. The best prompts are selected at each step by optimizing a given metric.\n\n4. Reinforcement Learning (RL) for Prompt Optimization\nRL-based methods are an emerging category in prompt optimization.\n• PRewrite [5], developed by DeepMind, trains a prompt optimizer model that learns to improve prompts by optimizing a reward function, such as ensuring the output aligns with the expected result.\n\nFinal Thoughts ✨\nFrom our experiments, the most effective strategies were:\n• Optimizing retrieval of the best few-shot demonstrations for each query.\n• Using genetic algorithms for candidate generation, enabling efficient search through the prompt space.\n\nReferences\n[1] DSPy: https://dspy.ai/\n[2] TextGrad: https://textgrad.com/\n[3] PROMST: https://lnkd.in/g8s92yZq\n[4] PhaseEvo: https://lnkd.in/gMQTUVUk\n[5] PRewrite: https://lnkd.in/giVV3nMT",
+    "url": "https://www.linkedin.com/posts/shahules_ensuring-that-an-llm-judge-aligns-with-human-activity-7292247994014277632-RW5U?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7291160822079242240": {
+    "content": "I have found Deep Seek's r1 model more useful than Open AI's o1 when solving hard problems as one could see the reasoning patterns of the model and indeed take inspiration from it on how to think about the problem itself. 🚀",
+    "url": "https://www.linkedin.com/posts/shahules_i-have-found-deep-seeks-r1-model-more-useful-activity-7291160822079242240-mU4h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7290905777177866240": {
+    "content": "We are starting weekly office hours helping out community members set evals. If you or you company need helps setting up evals for your AI product do check it out https://lnkd.in/g_ckGqJd \n\nps: it's not limited to Ragas and we'll be cover other tools as well during these calls - the goal is to use the best tools and techniques so that you and your team can ship reliable AI applications 🙂",
+    "url": "https://www.linkedin.com/posts/jjmachan_office-hours-ragas-activity-7290891576480874498-0dM7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7290439827609554972": {
+    "content": "How to Curate Test Data for Evaluating LLM Applications? ✨\nEvaluating large language model applications requires well-curated test data. There are two cases:\n\n1️⃣ Pre-deployment: Only a few test queries are available.\n2️⃣ Post-deployment: A sufficient number of real-world queries are available through user interactions.\nHere’s how you can tackle it in both cases: 👉🏽\n\n1️⃣ The pre-deployment scenario presents the challenge of data scarcity. Since there are only a limited number of test queries, synthetic test data generation using large language models can help create diverse and realistic samples.\n\nSeveral research papers have extensively used synthetic data to evaluate retrieval-augmented generation (RAG), agentic applications, and long-memory models. These works explore different strategies for generating and utilizing synthetic data: [1][2][3]\n\n2️⃣ The post-deployment scenario presents the challenge of data abundance. Here, the problem is not the lack of test queries but rather deciding how to sample effectively from the large volume of production logs.\n\nPapers such as [4] propose adaptive testing, which involves using a distance measure to sample queries such that the test dataset includes diverse scenarios. This method ensures that evaluation covers different types of user interactions rather than being skewed toward the most common patterns.\n\nAnother approach is scenario-based sampling, where one first defines a set of M scenarios (such as multi-hop queries) and then samples N queries belonging to each respective scenario. This ensures the test dataset is structured and covers different interaction patterns systematically.\n\n⭐️ Final thoughts \nIn summary: Pre-deployment: Synthetic data generation can compensate for the lack of real-world queries. Post-deployment: Careful data curation from production using mental models like diversity and test scenarios.\n\n[1] https://lnkd.in/gwts--9d\n[2] https://lnkd.in/gfeja9YN\n[3] https://lnkd.in/gFVfF84B\n[4] https://lnkd.in/giwbi-h8",
+    "url": "https://www.linkedin.com/posts/shahules_how-to-curate-test-data-for-evaluating-llm-activity-7290439827609554972-polB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7289718848377831426": {
+    "content": "How should I go about annotating my test dataset? \nThis is one of the most repeated question we get while working with companies on setting up evals.\n\n🧵 Here are our learnings from experience. (1/6) \n\n2/6 Continuous Scoring (e.g., 0 to 1):\n\n• Pros: Precise and granular.\n• Cons: Hardest to annotate and automate. LLMs as judges struggle with this due to uncertainty which results in fluctuating scores.\n\n3/6 Discrete or Categorical (e.g., Bad/Good/Great):\n\n• Pros: Easier for annotators with domain expertise. Works well for generative tasks with large search spaces, like long-form RAG QA.\n• Cons: Converting categorical ratings to a single score is not straightforward and is lossy. For example (Bad/Good/Great) may not transform directly to (0/1/2) because the difference between bad and good may the not be same as the difference between good and great.\n\n4/6 Binary (e.g., Pass/Fail):\n\n• Pros: Easy and effective for tasks with limited search spaces, like query routing.\n• Cons: Less suitable for subjective tasks (e.g., judging summaries or essays), where the line between pass and fail can be unclear and leads to high inter-annotator disagreement.\n\n5/6 Ranking (e.g., comparing two outputs and selecting the best one):\n\n• Pros: Easiest for annotators to use. Techniques like Elo scores can convert rankings into scores that is comparable across experiments. Works well for tasks with large search spaces, like summary generation.\n• Cons: ranking is not absolute, it only tells you how one experiment performs against another. There also could be situations in which this contradicts transitivity, ie annotator ranks (X>Y) and (Y>Z) but then ranks (X <Z).\n\n6/6 Final Thoughts:\n\nChoose the annotation mechanism that aligns with your task’s complexity and goals. For large search spaces, ranking or categorical works best. For simpler and well-defined tasks, binary scoring might be the best.",
+    "url": "https://www.linkedin.com/posts/shahules_how-should-i-go-about-annotating-my-test-activity-7289718848377831426-9Dc8?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7287605442879397888": {
+    "content": "I've been experimenting with various ways of annotating datasets faster and I found Notion something really compeling. Notion has\n- A wide array of fields I can use to setup simple annoation views for a varity of tasks. While advanced views are not supported the basics work\n- Comments/Grading Notes are very helpful. It is easier to annoate why a given generation is wrong with comments than writing ground truth statements manually.\n- Multi-User, Versioning and Sharing/hosting out of the box\n\nThe main thing lacking as a good SDK to interact with Notion. While notion provides a good API I wanted something that works similar to how SQLModel (https://lnkd.in/ggsfBmNZ) works and so I've been experimenting with something of my own (sharing the basic API design here).\n\nI was wondering if anybody else has similar experience of working with Notion? Any tools out there that I might have missed?",
+    "url": "https://www.linkedin.com/posts/jjmachan_ive-been-experimenting-with-various-ways-ugcPost-7287267888732815360-dvxG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7286783608407633920": {
+    "content": "We are happy to announce Curator, an open-source library designed to streamline synthetic data generation!\n\nHigh-quality synthetic data generation is essential in training and evaluating LLMs/agents/RAG pipelines these days, but tooling around this is still entirely lacking!\n\nSo we built Curator, and I think it has easily 10x'ed our productivity in creating post-training datasets!\n\nWhile there are many libraries to prompt LLMs, the semantics of generating synthetic data is different from prompting.\n\nFor example, we need to process a large number of prompts (sometimes in millions or more) while accepting some failures, utilize several stages of prompting, incorporate human feedback, and filter out bad data using verifiers and heuristics.\n\nCurator addresses these challenges:\n1. Supports efficient data generation supporting several API providers and local models.\n2. Recovers from failures and caches previous output.\n3. Utilizes structured outputs to enable programming complex data generation pipelines.\n4. Visualize your data generation in real time.\n\nWe are working on many more features (such as adding verifiers, diversity and data quality indicators, calling external tools for generating data etc.). \n\nWe hope to help the community create high-quality datasets to train their own bespoke models!\n\nLinks in comments!!",
+    "url": "https://www.linkedin.com/posts/smaheswaran_we-are-happy-to-announce-curator-an-open-source-activity-7285349838622208001-7zPk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2mo"
+  },
+  "7281986791157473280": {
+    "content": "In the last four months, I have given Gen AI interviews with 12 tech companies including Google, NVIDIA, and Amazon Web Services (AWS). I have also had the privilege of conducting more than 50 interviews. Here are a few common mistakes people make while preparing for Gen AI interviews:\n\n• 𝗗𝗼 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗳𝗼𝗰𝘂𝘀 𝗼𝗻 𝘄𝗵𝗮𝘁 𝗯𝘂𝘁 𝗮𝗹𝘀𝗼 𝘄𝗵𝘆 – I have seen many people focus on what they have done in a project but miss out on why. Gen AI is very similar to Machine Learning; it’s process-driven & not outcome-driven. If someone says that linear regression gave 90% accuracy in their project, you can’t challenge that as every data set is different. Similarly, in Gen AI, it’s about the process.\n\n - Why did you choose a vector DB?\n - Why did you do fine-tuning vs. RAG?\n - Why did you do a hybrid search & not just a keyword-based search?\n - Why did you choose an ANN algorithm?\n\n• 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗶𝗻𝘁𝗲𝗿𝗻𝗮𝗹 𝘄𝗼𝗿𝗸𝗶𝗻𝗴𝘀 𝗼𝗳 𝗟𝗟𝗠𝘀 – It is important to understand how LLMs work, including the attention mechanism, and the latest research around internal components like tokenizers, position encoding, etc.\n\n• 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗮𝗹𝗹 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 – I have seen a lot of cases where people have production LLM use cases without evaluation; they don’t know the evaluation numbers. Evaluation is not just about RAGAS numbers but also about latency, throughput, time to first token, and cost per query.\n\n• 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗱𝗶𝗴𝗶𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻 & 𝗽𝗿𝗲-𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 – A lot of people miss out on this, but it is the most important step in any Gen AI project. Many don't know how to handle large tables, charts, and graphs.\n\n• 𝗙𝗶𝗻𝗲-𝘁𝘂𝗻𝗶𝗻𝗴 𝗟𝗟𝗠𝘀 𝗶𝘀 𝗮𝗻 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝘀𝗸𝗶𝗹𝗹 – While talking with a few senior folks from big tech giants, the market trend is moving towards fine-tuning language models. It’s not just about LoRA and QLORA, which are important to learn theoretically, but also:\n\n - How many data points did you use to tune the LLM?\n - How did you create data?\n - GPU size estimation?\n - Parallelism techniques.\n\n• 𝗟𝗟𝗠 𝘀𝘆𝘀𝘁𝗲𝗺 𝗱𝗲𝘀𝗶𝗴𝗻 – This is supercritical. LLM engineering is just part of the entire system. Focus not only on LLM models/agents but also on observability and monitoring, scaling, cost, and latency optimization.\n\nNo one has asked me about 25 RAG techniques yet, so don’t bother 😄. Happy interviewing!\n\n\n#LLM #GenAI #Interview #Google #MasteringMasteringMastering LLM (Large Language Model) #NVIDIANVIDIANVIDIA #interviewprep #FAANG #MicrosoftMicrosoftMicrosoft #AmazonAmazonAmazon Web Services (AWS) #AnthropicAnthropic #MetaMeta #DeepLearning.AI #LangChain #Ashish Patel 🇮🇳 #Aishwarya Srinivasan #Andriy Burkov #Andrew Ng #Chip Huyen #Kirk Borne, Ph.D. #Steve Nouri",
+    "url": "https://www.linkedin.com/posts/rohit-shah-00579175_llm-genai-interview-activity-7281899657377517568-lSme?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3mo"
+  },
+  "7272990201277235200": {
+    "content": "Was reading Shahul's excellent blog on aligning LLM judges with Human Experts, and came across Shreya's paper on EvalGen. \n\nTL;DR:\n\nProblem:\nLLMs are increasingly used to evaluate other LLM outputs, but these LLM-based evaluators can be unreliable and require validation.\nExisting tools lack sufficient support for verifying the quality of LLM-generated evaluations.\nUsers struggle to define evaluation metrics for custom tasks.\n\nProposed Solution:\nEvalGen: A mixed-initiative interface that assists users in creating and validating LLM-based evaluations.\n\nWorkflow:\nLLM suggests evaluation criteria based on the prompt under test.\nLLM generates candidate assertions (code or LLM prompts) for each criterion.\nUsers grade a subset of LLM outputs, providing feedback.\nEvalGen selects assertions that best align with user grades.\nA report card shows the alignment between chosen assertions and user grades.\n\nKey Features:\nCriteria Generation: LLM-powered suggestions for evaluation criteria.\nAssertion Synthesis: LLM-generated candidate implementations (code or LLM prompts).\nActive Learning: User grades guide the selection of aligned assertions.\nAlignment Measurement: Report card showing the alignment of assertions with user preferences.\nMixed-Initiative: Combines automated assistance with user control.\nEvaluation:\nOffline Evaluation: Compared EvalGen's algorithm with SPADE (a fully automated assertion generation tool). EvalGen achieved better alignment with fewer assertions due to human input in the criteria selection stage.\nQualitative User Study: Nine industry practitioners used EvalGen to build evaluators for LLM pipelines.\n\nAs businesses scale AI first workflows, evals grow even more critical. Combining humans and LLMs seems like an excellent fit.",
+    "url": "https://www.linkedin.com/posts/rachitt-shah_was-reading-shahuls-excellent-blog-on-aligning-activity-7272961536950759424-gFCq?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3mo"
+  },
+  "7272875058107166720": {
+    "content": "One of the biggest hurdles with setting up Evaluations for you AI products with LLM-as-Judge is the subjectivity of evaluations.\n\nThere is always some form of subjectivity in evaluations which varies depending on the domain, product, etc. The developer who works on it knows and understand this and evaluates the outputs from this perspective, but when the task is automated using an LLM it fails to meet expectations because it simply does not have the context that the developer or human evaluator had when evaluating outputs. This is depicted in the simple example shown here. This is why most evals fail.\n\nWe have been thinking a lot about how to close this gap and wrote about it here: https://lnkd.in/dub3bW8Z\n\nDo check it out and let us know your thoughts 🙂",
+    "url": "https://www.linkedin.com/posts/jjmachan_one-of-the-biggest-hurdles-with-setting-up-activity-7272860779589062656-Cy9r?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3mo"
+  },
+  "7272665618447790081": {
+    "content": "Read the blog on how to fix your evals by aligning them with human evaluators. ⭐️",
+    "url": "https://www.linkedin.com/posts/shahules_we-are-launching-something-new-this-week-activity-7272665618447790081-sFwK?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3mo"
+  },
+  "7272296284542103552": {
+    "content": "Evaluate -> Review -> Align using Ragas\nTry it out now.\nWe will publish a detailed blog on experiments, and optimization algorithms soon.",
+    "url": "https://www.linkedin.com/posts/shahules_now-align-your-llm-based-evaluators-with-activity-7272296284542103552-ulN7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3mo"
+  },
+  "7269757134878203904": {
+    "content": "Here's a light and fast model for detecting hallucinations in your RAG pipeline -- and how to easily use it in Python.\n\nVectara trained a stand-alone model for hallucination detection, which can be called from Ragas to evaluate your RAG responses. Here's how:\n\nLLM-as-a-judge approaches for detecting hallucinations are prone to echo-chamber effects because often, the LLM can't find issues in its response.\n\nInstead, HHEM-2.1 works by generating a score between 0 (likely hallucination) and 1 (high factual consistency) to evaluate the reliability of responses in RAG pipelines.\n\nIt supports up to 4096 tokens for evaluation with robust performance even with long sequences.\n\nHHEM-2.1 is optimised for consumer-level GPUs like the RTX 3080 and even modern CPUs, giving low latency (e.g., under 1.5 seconds on an Intel Xeon w7-3445).\n\nHHEM-2.1 outperforms  GPT-4 in terms of precision, recall, and F1 score in RAG datasets like AggreFact and RAGTruth.\n\nLink to the full article is in the comments.\n\n#AI #LLMs #RAG",
+    "url": "https://www.linkedin.com/posts/sarthakrastogi_ai-llms-rag-activity-7269685572405719040-Y6BU?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4mo"
+  },
+  "7261961351713955840": {
+    "content": "Evaluate tool calling AI agents built using Langraph (by LangChain ) with Ragas. In-depth tutorial covering building and evaluating a ReAct Agent for fetching metal prices.\n\n👉🏽Tutorial covering:  \n1.⁠ ⁠Build a ReAct agent to fetch metal prices.\n2.⁠ ⁠Set up an evaluation pipeline to track key performance metrics.\n3.⁠ ⁠Run and assess the agent's effectiveness with different queries.\n\n\n👉🏽 Check out the tutorial: https://lnkd.in/g4YtWYWj\n\nA complete beginner-friendly tutorial on evaluating Langraph agents by @sahusiddharth ❤️",
+    "url": "https://www.linkedin.com/posts/ragas-io_evaluate-tool-calling-ai-agents-built-using-activity-7261792319765401600-lxGp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4mo"
+  },
+  "7257600160027803648": {
+    "content": "Weekly release update  📣\n\nRagas v0.2.3 released 🎉\n\n• Added multimodal eval support - thanks to @Yunnglin\n• Improved parser retries - thanks to @rskew\n• measuring the cost of the test set generator\n• and many more bug fixes and improvements\n\nA big thanks to the community who have been helping us more with each release and all of our members who made the contributions to this release ♥️",
+    "url": "https://www.linkedin.com/posts/ragas-io_weekly-release-update-ragas-v023-released-activity-7257454465979461632-w98a?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5mo"
+  },
+  "7255059479476457472": {
+    "content": "Here is a cookbook on how to test your LLM applications:\n\nThis cookbook uses Ragas and Comet Opik, an open-source platform for evaluating, testing, and monitoring LLM applications.\n\nYou can use Opik to:\n\n• Detect hallucinations\n• Evaluate RAG applications\n• Determine answer relevance\n• Measure context recall\n• Create and store test cases\n• Integrate it with your CI/CD pipeline using Pytest\n\nCookbook: https://lnkd.in/eECfH9PF",
+    "url": "https://www.linkedin.com/posts/svpino_here-is-a-cookbook-on-how-to-test-your-llm-activity-7254944687772372993-vkCs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5mo"
+  },
+  "7246938768585154561": {
+    "content": "📢 Announcing LLM Engineering: The Foundations, Cohort 3! \n\nReady to master the world of LLMs and embedding models?\n\nIt’s time to dig into just what underlies the In-Context Learning design patterns that we build 🏗️, ship 🚢, and share 🪨 production LLM applications with!\n\nIn just six weeks, we’ll walk through the concepts and code that will take you from the classic Machine Learning out to the LLM edge:\n\n🤖 The Transformer (BART to BERT and GPT)\n🧐 Attention (Self-Attention to FA2)\n🔠 Embeddings (Learned embeddings to ROPE)\n🪙 Next-Token Prediction (Decoding to Guardrails)\n🔡 Embedding Models (Similarity to Sentence Transformers)\n🚇 Pretraining (Self-Supervised to Continued)\n🚉 Fine-Tuning (Quantization to PEFT-LoRA)\n🛤️ Alignment (RL and PPO to DPO)\n🌌 Frontiers (SLMs to MoEs, Merging, and more!)\n\nCheck out what previous students are saying, submit your application, and complete The LLME Challenge today: https://lnkd.in/gyCvJGJy\n\nSee you in class!\n\n#LLM #Engineering #GenAI #Transformers #MachineLearning",
+    "url": "https://www.linkedin.com/posts/ai-maker-space_llm-engineering-genai-ugcPost-7246912042878574592-tdAg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "6mo"
+  },
+  "7239296605223276544": {
+    "content": "Hello folks! I recently hosted an engaging Q&A session on Search for RAG, and I'm excited to share it with you all now (link follows in comment).\n\nThe session is approximately 27 minutes long and covers a range of intriguing topics that were brought up by participants. \n\nWe delved into the intricacies of search algorithms, the future of retrieval-augmented generation, and practical applications of this technology. \n\nWhether you're a seasoned professional or just curious about the field, I believe you'll find it both enlightening and thought-provoking. \n\nIt's definitely worth your time, so grab a cup of coffee and enjoy!",
+    "url": "https://www.linkedin.com/posts/nirant_hello-folks-i-recently-hosted-an-engaging-activity-7239295925091713024-XBRV?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "6mo"
+  },
+  "7234201996671557634": {
+    "content": "The pull request I submitted to incorporate a Noise Sensitivity Metric into the Ragas library has been officially merged.\n\nDuring my internship at Piramal Capital & Housing Finance Limited, I had the opportunity to extensively work with the ragas library. By the end of my internship, I had gone through a good portion of the codebase and was truly impressed. Kudos to the ragas maintainers for their amazing work – the library is intuitive, powerful, and a joy to use!\n\nHaving done some open-source contributions in the past, I felt inspired to give back to this fantastic project. I'm thrilled to share that my PR (https://lnkd.in/gHcrHcYe) , which adds a Noise Sensitivity Metric, was recently merged into the Ragas codebase! 🎉A big thank you to Shahul ES for his guidance and support.\n\nA special shoutout to the Amazon Science team – the inspiration for this metric was taken from one of their repos.\n\nLooking forward to more opportunities to contribute and grow with this vibrant community! 🚀 #opensource #AI #internship #ragas #RAG #RAGevaluation",
+    "url": "https://www.linkedin.com/posts/siddharth-sahu-86097a288_implementation-of-noise-sensitivity-metrics-activity-7234185096059052032-eGay?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "7mo"
+  },
+  "7234137443434651649": {
+    "content": "Career Update: I parted ways from Qdrant a couple of months ago.\n\nWhat's next? I’m thrilled to announce I'm joining forces with some of the industry's brightest minds on an exciting RAG project:\n\n1. Jithin from Ragas, the definitive RAG Evals library that's setting new standards in the field.\n\n2. Dhruv Anand, with an impressive background from Meta Search and Google, bringing unparalleled expertise to our team.\n\nWe're embarking on some exciting projects together — and no, it's not a startup!\n\nIt's a pain-killer for backend FAANG engineers, ML Engineers, and CTOs struggling to make money off RAG.\n\nExciting things ahead. Follow me here if you don't want to miss the announcement that comes tomorrow!",
+    "url": "https://www.linkedin.com/posts/nirant_career-update-i-parted-ways-from-qdrant-ugcPost-7234084732148277249-8VXx?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "7mo"
+  },
+  "7233669424916901890": {
+    "content": "RAGAS score by hand ✍️\n\nWith 6.3K stars, RAGAS (RAG Assessment) is one of the most popular open source tools for RAG evaluation, which will be a topic in my webinar on 8/28 hosted by SingleStore. \n\nI'd like to share a preview of how I will demonstrate the calculation of RAGAS' four major metrics---faithfulness, answer relevancy, context precision, and context recall.\n\nAs I am preparing for my webinar, I had the pleasure of speaking with Shahul ES, the creator of RAGAS, to hear about his philosophy and story behind ragas. He told me RAGAS just reached 20 million monthly evaluations! It is definitely making an impact!\n\nHope to see you at the webinar this Wednesday!\n\n#rags #ragas #aibyhand \n\nPlease [REPOST ♻️] to share this with your network!",
+    "url": "https://www.linkedin.com/posts/tom-yeh_rags-ragas-aibyhand-activity-7233463866356027392-qLi_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "7mo"
+  },
+  "7199434294669291520": {
+    "content": "User feedback from production is the most underutilized part of the LLM application evaluation stack. I explored the possibilities for more than a week and here are my  key points ⭐️\n\n\n Noisy data: The data collected from a production environment is very noisy, unlike controlled environments such as RLHF data collection through paid annotators. Data cleaning should be done at both the sample level and the user level to remove noise.\n\n Implicit signals over explicit signals: Users rarely provide explicit signals like ratings or thumbs up but always give implicit signals when interacting with LLM applications, such as copy-pasting output, stopping generations before completion, etc. This data is very valuable for understanding situations where your application fails.\n\nCluster analysis: Cluster analysis on dialogue history, paired with user feedback and augmented features like user intent, can be used to derive valuable insights and analyze error patterns.\n\nAugmenting feedback data by generating implicit features from interaction history: LLMs can be used to augment feedback data by predicting features like user intent, error type, and user reaction for each interaction.\n\nSimulating and/or modeling user behavior: LLMs can be used to learn and simulate user behavior if given enough data. Another method to model user satisfaction is by using automated metrics to score interactions and then using these scores as a dependent variable to predict user satisfaction.\n\nDMs open for anyone who wish to collaborate with us on it ▸\nDetailed blog coming soon :)",
+    "url": "https://www.linkedin.com/posts/shahules_user-feedback-from-production-is-the-most-activity-7199434294669291520--DVn?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "10mo"
+  },
+  "7199059054344732672": {
+    "content": "Absolute killer by Joel K George. Checkout our new landing page https://ragas.io/",
+    "url": "https://www.linkedin.com/posts/shahules_hello-connection-for-the-last-2-months-activity-7199059054344732672-Qp-G?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "10mo"
+  },
+  "7183245295399444480": {
+    "content": "Shahul ES has an exciting gift for you all 🎁\n\nWe have had the synthetic testset generation piece in Ragas for a while and one of the biggest problems with running it was cost 💰\n\nand that is why we are releasing a much smaller quantised Qwen 1.8B model which reduces the cost by 90% compared to gpt4 and gives you up to 200 tokens/sec on a single A10 instance.\n\nthis is just a start - a lot more exciting stuff coming out this month. Pumped to be back with the community❤️ and shipping some cool stuff 🔥🥳\n\ncheck out the notebook: https://lnkd.in/gD37h7PX\ncheck out the video for more info 👇",
+    "url": "https://www.linkedin.com/posts/jjmachan_shahul-es-has-an-exciting-gift-for-you-all-ugcPost-7183237677813579776-eBcP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7180974284771659776": {
+    "content": "Yesterday's journey through Silicon Valley marked the grand finale of our journey before Demo Day. 🚗🎉 The Superagent (YC W24) team met with some of the smartest investors in the game, looking to learn more about how our AI-agents are ran across various industries. We feel truly privileged to have so much interest in our work. 🙏✨\n\nThe Y Combinator experience has been a game changer for us, deepening our conviction in committing to solving hard problems worth solving, sometimes without clear solutions in sight. It's shown us the irreplaceable value of community—there’s something special in being surrounded by those who walk in your shoes every day. 👟🤝 Let’s continue on this path together, friends!\n\nThese past three months have been a period of immense growth. 🌱➡️🌳 We came to San Francisco as one version of ourselves, and as we approach Demo Day, we realize how much we—and Superagent—have evolved. 🔄🚀\n\nThanks to our batch-mates who's walked this path with us, and especially our group partners, Nicolas Dessaigne and Diana Hu, for their patience and guidance. 🔮 With Demo Day tomorrow, we're ready to showcase the evolution of our journey and what lies ahead. #LFG #YCW24 #DemoDayReady",
+    "url": "https://www.linkedin.com/posts/alanzabihi_lfg-ycw24-demodayready-activity-7180934500766400512-EuUB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7171280687197511680": {
+    "content": "Ragas (YC W24) is an open-source evaluation and testing infrastructure for LLM applications.\n\nBefore 2023, software was typically written in code. However, with the emergence of foundational models, software and applications are evolving into compound systems containing code, prompts, and other components. This transition introduces several pain points, including a lack of quality control methods when building at scale.\n\nRagas aims to solve this by developing model-graded evaluations and testing techniques to ensure quality. This includes automated synthesis of test data points, explainable metrics, and adversarial testing.\n\nFounders Jithin James and Shahul ES, having met in college and combining their experience in research and engineering, have already grown Ragas to become the de facto standard in evaluating RAG applications.",
+    "url": "https://www.linkedin.com/posts/y-combinator_launch-yc-ragas-open-source-evaluation-activity-7171263336750297088-xZwn?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7170855207667482624": {
+    "content": "Apriora (YC W24) is building the best interviewer to conduct interactive job interviews in real time with AI.\n\nHiring is slow and expensive. Existing video interviewing platforms were built to solve this for companies, but their one-way interfaces and cookie-cutter questions create a disappointing candidate experience, resulting in low completion rates and a limited hiring signal.\n\nFounded by Aaron W. and John Rytel, Apriora's AI interviewer conducts real-time video interviews with candidates, including technical screens, phone screens, system design, coding, behavioral, and more. \n\nToday, companies using Apriora reduce recruiting overhead, interview more candidates, and make better hiring decisions, while their candidates benefit from an equitable and interactive interviewing experience. \n\nCongrats Aaron and John on the launch!",
+    "url": "https://www.linkedin.com/posts/y-combinator_launch-yc-apriora-your-ai-interviewer-activity-7170538506421817345-QWHo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7156752509229821952": {
+    "content": "Athina AI (YC W23) now supports all the Ragas metrics natively 🚀\n\nRagas is a framework with SoTA metrics for evaluating RAG pipelines.\n\n- Context Relevancy\n- Context Recall\n- Answer Relevancy\n- Context Precision\n- Faithfulness\n- Answer Semantic Similarity\n- Answer Correctness\n- Harmfulness\n- Maliciousness\n- Coherence\n- Conciseness\n\nRagas has gotten really popular over the last few months… for good reason.\n\nRagas is designed for metrics driven development, which is the best way to rapidly measure and improve RAG pipelines.\n\nShoutout to the Ragas team - Shahul ES and Jithin James for developing a great library!\n\nYou can use Ragas through Athina in one of 2 ways:\n\nConfigure a Ragas automatic evaluator to run against your logged inferences on the Athina platform. (in ~15 seconds)\n\nUse Ragas from the Athina Evals SDK (just 2 lines of code)",
+    "url": "https://www.linkedin.com/posts/shivsakhuja_athina-ai-yc-w23-now-supports-all-the-ragas-activity-7156745106308395008-fA20?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7131526082607935488": {
+    "content": "Thanks a lot Nirant Kasliwal for giving us a platform to share the work we are doing with Ragas - had a good time chatting with you brother :)",
+    "url": "https://www.linkedin.com/posts/jjmachan_jithin-james-of-ragas-is-killing-it-by-measuring-activity-7131512271691796481-_Ozh?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7109764902382161920": {
+    "content": "How Do You Evaluate Large Language Model Apps — When 99% is just not good enough? 🧐\n\nLLMs are fundamentally changing the way practitioners evaluate performance. When an LLM fails, it does not fail as badly as a traditional ML model that's been trained on a narrow set of data/tasks - modern LLMs are built to answer coherently and seamlessly based on almost any user input. \n\nBut the impressions made by an LLM that fails are spectacular, like a child that’s been caught lying even though they know better, or whose parents should have taught them better. \n\n💡 In my blog post, I explore:\n\n1️⃣ Recent strides in LLM frameworks for tackling \"hard\" tasks. 💪\n2️⃣ The pivotal role of language understanding in LLM evaluation. 🗣️\n3️⃣ The power of consensus-based decision-making within the LLM realm. 🤝\n4️⃣ Adapting these frameworks to cater to industry-specific LLMs. 🏭\n\nThere have been some recent developments on streamlining LLM evaluation. \n\n🌟 RAGAS, a tool designed to assess LLMs based on metrics like faithfulness, relevancy, and harmfulness, to name a few.\n\n🌟 And, LangSmith, a framework born from the founders of LangChain. It's meant to be your one-stop-shop for debugging, testing, evaluating, and monitoring LLM applications.\n\nBlog and links in the comments!\n#ai #evaluation #LanguageUnderstanding #Innovation #Tech #llm",
+    "url": "https://www.linkedin.com/posts/skanda-vivek-01619311b_ai-evaluation-languageunderstanding-activity-7104992542185684992-BgnO?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7108153031426260992": {
+    "content": "We started ragas with ground-truth free evaluations so that you didn't have to put significant upfront effort into building an ideal test set before running evaluations. Creating a test set needs substantial upfront investment in time, money, human hours and expertise to get it right. It is also a continuous process as your product and ML model evolve to cater to diverse use cases. We are exploring the possibilities of synthetic test set generation because\n\n1. As RAG users get more mature and go into production, having a solid test set and evaluation strategies becomes critical to give users a seamless experience. This means they have to put more time into building solid test sets and evaluation methodologies.\n2. ground-truth free evaluation has its limitations. It is very effective in quantifying aspects like faithfulness but ground-truth free evaluation cannot be used to ensure aspects like answer correctness which is also very important. Here a synthetic test set with ground-truth can be of high utility.\n\nThe whole focus of the Ragas library is to help you build more reliable RAG applications which is why with the next leg of Ragas we'll be focusing a lot more on test set generation and continual learning of RAG pipelines.\nif you're interested in keeping a tab on these updates checkout",
+    "url": "https://www.linkedin.com/posts/jjmachan_testset-generation-bringing-continual-learning-activity-7108146920379879424-2JoD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7107957209996660736": {
+    "content": "10x Your Skills in just 3 hours with our Free GenAI Meetups for all🚀\n\n💡Topics Covered: RAG, RAGAS, LlamaIndex, Large Language Models, NVIDIA GenAI Full Stack and much more!\n\nHurry up and Register for free now: https://lnkd.in/dF36QsAe\n\nRavi Theja Desetty Amit Kumar Jithin James Logesh Kumar Umapathi Vikas Agrawal Kunal Jain Sunil Ray Sandeep Singh Sudalai Rajkumar - SRK\n\nLlamaIndex NVIDIA Saama Oracle\n\n#largelanguagemodels #chatgpt #gpt4 #llms #generativeai #meetups",
+    "url": "https://www.linkedin.com/posts/analytics-vidhya_largelanguagemodels-chatgpt-gpt4-activity-7107724607356305410-XSm5?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7105439764585074688": {
+    "content": "This article considers how Ragas can be combined with LangSmith for more detailed insights into how Ragas goes about evaluating a RAG/LLM implementation.\n\nCurrently Ragas makes use of OpenAI, but it would make sense for Ragas to become more LLM agnostic; And Ragas is based on LangChain.\n\nThe LangSmith integration lifts the veil on cost and latency running Ragas. For this assessment based implementation, latency might not be that crucial, but cost can be a challenge.\n\nIn short, what is Ragas? Ragas is a framework which can be used to test and evaluate RAG implementations. As seen in the image below, the RAG evaluation process divides the assessment into to categories, Generation and Retrieval.\n\nGeneration is again divided into two metrics, faithfulness and relevance.\n\nRetrieval can be divided into Context Precision and Context Recall.\n\nLink to the full article in the comments.\n\n#LangChain #LargeLanguageModels #PromptEngineering",
+    "url": "https://www.linkedin.com/posts/cobusgreyling_langchain-largelanguagemodels-promptengineering-activity-7104913010300727296-Mq7D?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7100457564806529024": {
+    "content": "Super excited to be talking more about RAG Evaluation and ragas at the langchain webinar happening next Thursday. Will be joined by Harrison Chase and William Fu-Hinthorn from the langchain team who will be sharing more about evaluation with langsmith and langchain along with our dear Shahul ES and myself and we'll be sharing our learnings from building ragas(https://lnkd.in/duYmv7Bh) and the feedback we got from our customers. \n\nI think this is going to be a pretty informative one and looking forward to the discussion. \n\nIf you have any suggestions, topics or questions that you would like us to discuss, do share them in the comments. \n\ntune in at https://lnkd.in/gVPbShRW",
+    "url": "https://www.linkedin.com/posts/jjmachan_langchain-rag-evaluation-webinar-activity-7098180383321595904-Rf3x?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7093808662565048320": {
+    "content": "Here's an exciting opportunity guys :)",
+    "url": "https://www.linkedin.com/posts/shahules_senior-machine-learning-engineer-activity-7093808662565048320-wMM7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7092590954745921536": {
+    "content": "Ragas v0.0.10 release - langsmith integration🎉\n\nfor those who don't know, ragas is an evaluation framework for your Retrieval Augmented Generation (RAG) pipelines (repo: https://lnkd.in/duYmv7Bh)\n\nLangsmith is a platform for building production-grade LLM applications from the LangChain team. It helps you with tracing, debugging and evaluating LLM applications. Langsmith's tracing allows you to probe into the internals of the ragas metrics and why it gave the score it gave. This is helpful when figuring out how to improve your scores. Our team has actually started using this extensively as we are developing ragas and it is a game changer.\n\nDo check out the notebook to learn more\nnotebook: https://lnkd.in/gpwW-zSK",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7092590954745921536?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7087855209414070272": {
+    "content": "Ragas v0.0.7 is out and brings down the cost of evaluation by 10x! \n\nv0.0.7 brings 2 significant changes\n\n1. Uses langchain under the hood for LLM calls which means you can use any LLM API supported by langchain. This has been something our users have been asking from the start.\n2. Using OpenAI's chat models over textdavinci. Chat-based models are significantly cheaper than completion models and using langchain allowed us to swap out old implementation, leading to the price drop. It also gives us 4x more context thanks to gpt-3.5-turbo-16k\n\nwant to try it out? check out the\ndocs: https://lnkd.in/g74XAp2t\nrepo: https://lnkd.in/duYmv7Bh\nour discord community: https://lnkd.in/gQZGg_6C",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7087855209414070272?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7086036798254051328": {
+    "content": "That was awesome, all thanks to organizers :)",
+    "url": "https://www.linkedin.com/posts/shahules_generativeai-genaidevcon-generativeai-activity-7086036798254051328-VTJ0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7082016710911815680": {
+    "content": "I explored my curiosity on how to best evaluate LLMs and LLM applications, I have consolidated the top methods and my thoughts in this article \nhttps://lnkd.in/gCUsV7U3\n\nI also have a discord channel to discuss building and serving RAGs: https://lnkd.in/gQ3jMD8s\n\nLet's build together :) \n#llm #gpt #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_llm-gpt-opensource-activity-7082016710911815680-zOgD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7081874053346578432": {
+    "content": "I'll be speaking about LLMs and my experience being part of the OpenAssistant initiative. Be there!\n#llms #ai #opensource #india",
+    "url": "https://www.linkedin.com/posts/shahules_genai-devconf-bangalore-activity-7081874053346578432-0bjc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7081669259084402688": {
+    "content": "Regardless of many repeated claims from \"AI influencers\" I haven’t seen many open-source models that can compete with even GPT 3.5 in overall performance. \nI don’t think it to be a zero-sum game between open and closed LLMs. Both have their benefits and downsides.\n- Every business that wants to leverage AI doesn’t have to build and maintain LLMs if they use closed-source providers. \n- Businesses trying to build a moat on AI can try and leverage open-source to make their models better than closed-source in their specific niche. \n\n#ai #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-opensource-activity-7081669259084402688-Ub_u?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7080198287416295424": {
+    "content": "Spent the whole day learning and adding support for flash attention to make fine-tuning 7B+ models with larger context length possible in the university cluster node (2 V100 16GB) and then realized that flash attention does not work in V100s!\nWhat's next? 🤔\nI want to replace LoRA with QLoRA and see if its memory is efficient enough to do the job in my node.  If anyone is fine-tuning larger LLM for open source I would love to collaborate :)\n#llm #training #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_llm-training-opensource-activity-7080198287416295424-V6GC?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7079850977805139968": {
+    "content": "The current LLM evaluations focus on domain-specific datasets with human-annotated labels,  most LLMs have been exposed to the same data during the pretraining. So how can one evaluate LLMs for custom data w/o labeling? Self-Supervised Evaluation for Large Language Models\n\n- The paper first identifies important dimensions to evaluate LLMs such as internal Knowledge, toxicity, long-range sensitivity,  word-order sensitivity, and tokenization sensitivity. Methods are then proposed to evaluate LLMs on each of these dimensions.\n- Internal Knowledge: Here pairs of (sentence, negated sentence) if formed from the corpus and fed to LLM individually. Then the change of log perplexity of the original and negated sentences is measured.\n- Toxicity: sentences from the desired corpus are selected and augmented by adding curse words. The probability of the LLM generating profane words from the LDNOOBW dataset is measured to quantify toxicity.\n- Long-range sensitivity: Paragraphs are selected from the desired corpus and then augmented by replacing random sentences. The probability distribution of the original paragraph vs the augmented paragraph when fed to LLM is then compared using e Jensen–Shannon divergence.\n- Tokenization sensitivity: To mimic broken tokenization, random tokens are chopped and tokenized independently. Then the concatenation of chopped tokenization vs original text over the next token predictions is compared using JSD\n-The paper also investigated the effect of instruction finetuning in all of these metrics. Check out the paper and code\n\thttps://lnkd.in/g5XDcmAg\n\thttps://lnkd.in/gBzmRhdX\n\n#llms ##research",
+    "url": "https://www.linkedin.com/posts/shahules_llms-research-activity-7079850977805139968-7R_h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7072432120987602944": {
+    "content": "Building Chatbot for your private knowledge base has never been so easy. But improving its performance is still hard and If you can't measure it, you can't improve it. This is where Ragas framework comes in with SOTA evaluation techniques for your RAG pipeline. We are showcasing our product at the Hugging Face X Inferless X Sequoia meetup and at the after-party on this Saturday in Bengaluru. \n\nJoin us with hundreds of other participants for the after party \nhttps://lnkd.in/gxwEBE44?\nCheckout Ragas https://lnkd.in/gvwaUcf2\n\n#meetup #huggingface #llm #ai",
+    "url": "https://www.linkedin.com/posts/shahules_meetup-huggingface-llm-activity-7072432120987602944-l-QI?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7062078849697648640": {
+    "content": "Chain of thought reasoning is one of the most impressive qualities of LLMs. Taking advantage of this, a recent paper just outperformed the 540B PaLM using 11B T5. How?\n\n- The paper proposes a smart way to fine-tune or distill language models that achieves better performance with much lesser data points and can surpass models with much larger sizes.\n- The method uses the ability of LLMs to reason to produce training data that contains rationales (CoT prompting) along with the label for different tasks like NLI.\n- A smaller model (500x less param) is now trained to generate labels and rationale given a prompt (multi-task problem). The loss function is modified as, Loss = Loss_label + lambda * Loss_rationale.\n- The assumption here is that the rationale prediction will enable the smaller model to generate intermediate reasoning steps and could therefore guide the model in better predicting the label. Experiments show that the 11B T5 model outperforms the 540B PaLM.\n- For more curious you, check out the paper https://lnkd.in/gY8wEhYg\n#ai #research #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-research-opensource-activity-7062078849697648640-Oduu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7061541387694968832": {
+    "content": "A good reward Model is crucial for LLM alignment. I have to build an open-source framework to train reward models and it's easy to use. I will train 1Billion+ parameter models soon and benchmark them. \n\nCheckout the project \nhttps://lnkd.in/g7QAgdbC\n\nBlog on Reward Modeling for RLHF\nhttps://lnkd.in/gzAvkP8B\n#opensource #llms #gpt",
+    "url": "https://www.linkedin.com/posts/shahules_opensource-llms-gpt-activity-7061541387694968832-xjri?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7060312188640505857": {
+    "content": "As a builder in this space, I've always always been worried about the rate of change but more importantly how to build a moat more ourselves in order to stay on top.\nHere is Jerry Liu's take on that\n\nfor the entire conversation checkout -> https://lnkd.in/giwFpqRZ",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7060312188640505857?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7060269080603156480": {
+    "content": "Opensource for the win 🎉\nMosaicmls' new MPT-7B model is out and joins the list of fully open-source LLMs with StableLM, Pythia, and others.  7B parameters seem to be the sweet spot for OSS LLMs.  It also comes with up to 84k token limit (ALiBi)🔥\nhttps://lnkd.in/eVPHKZJp \n#opensource #ai",
+    "url": "https://www.linkedin.com/posts/shahules_introducing-mpt-7b-a-new-standard-for-open-source-activity-7060269080603156480-gwlc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7059949810056921088": {
+    "content": "Jerry Liu talks about why only using vector embedding and performing similarity to create your LLM retrieval pipeline is a good first step but cautions against overfitting to that process and what else to do in order to improve it.\n\ncheckout the entire convo here -> https://lnkd.in/giwFpqRZ",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7059949810056921088?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7059174221263867904": {
+    "content": "I get many enquires on data science opportunities from many, here is a wonderful opportunity for the best among you. Arrowhead seeks passionate NLP engineers (intern & full-time) to work on challenging bleeding-edge projects in LLMs, contextual understanding, and privacy. Email devyani@arrowhead.team with your resume if you are interested. \n#datascience #opportunity #nlp",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-opportunity-nlp-activity-7059174221263867904-DEGw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7058823407458496512": {
+    "content": "Many recent works claim that LLM models exhibit capabilities that are not present in smaller-scale models, (aka emergent capabilities). For example, 8-digit addition accuracy improved from less than 10% to 100% when scaling GPT models. This is also a cause of fear for AI doomers but these claims are not completely true. Why?\n\n- Much of such emergent capabilities are a product of researchers favoring specific metric/test sizes for measuring model performance.\n-  Large language model's loss which is a function of per-token error rate remains continuous and predictable using scaling laws, but LLMs output's accuracy is measured using non-linear methods such as exact string match which can be the one of causes of such a mirage of emergent capabilities.  \n- Another prominent cause is the use of a very small-sized test dataset. This can be proved by increasing the test size easily in many tasks like arithmetic. \n- Most of such emergent capabilities vanish when replacing non-linear/discontinuous metrics by Brier Score. \n\nFor more curious among you read the full paper here https://lnkd.in/eJJvZFAN\n#ai #gpt4 #llms #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-gpt4-llms-activity-7058823407458496512-pQKg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7057781702969987072": {
+    "content": "Had a super fun conversation with Jerry Liu about the past present and future of LlamaIndex. The full video will be out soon🤞. It was really fun learning about the project from the creator, to get to know his vision. \n\nplus my spider senses are feeling like I should keep my eyes open for the latest LlamaIndex release 😉",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7057781702969987072?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7057371479931334657": {
+    "content": "LLMs are revolutionizing information retrieval for answering information-seeking queries, but the current process is inefficient. With a good portion of parameters used for storing useless facts, specialized retrieval-based LLMs are the way forward. Check out these promising papers! ⭐️\n\n- REALM: https://lnkd.in/dJ6ttzUq\n- RETRO:  https://lnkd.in/dz9HU-JH\n- Atlas: https://lnkd.in/dVj7EWqa\n\n#ai #llms #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_realm-retrieval-augmented-language-model-activity-7057371479931334657-7ubY?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7057330045211590657": {
+    "content": "Next generation AI :) \n\n#ai #llms #python",
+    "url": "https://www.linkedin.com/posts/shahules_ai-llms-python-activity-7057330045211590657-LLGO?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7056650568164913152": {
+    "content": "I have always been skeptical about fine-tuning open-source LLMs on ChatGPT output like Alpaca. Now here are some concrete arguments on why it's a bad idea (other than ethical concerns)\n- This might work for teaching models to follow instructions but also encourages the model to make up answers to information-seeking instructions when it doesn't know the answer. Let me explain,\n- In SFT ideally, we want the model to use its internal knowledge to generalize on instruction: answer pairs and learn to think in similar steps when given similar instructions.\n- Now the knowns and unknowns of different LLMs like GPT4 and LLAMA will be very different.\n- So given an instruction, there are two situations. \n1) model \"knows\" the answer\n2) model \"doesn't know\" the model.\n- When a model generalizes during supervised fine-tuning on such datasets the model is in many instances forced to lie by associating an answer with a question that it doesn't really \"understand\" or know\". This goes against the intention of LM alignment (truthfulness). \nHence it's not a great idea to fine-tune models on Chatgpt's output.\n\nFor more curious among you, link to the article :\n https://lnkd.in/gUYgqxQS\n#ai #lllms #gpt4 #alpaca",
+    "url": "https://www.linkedin.com/posts/shahules_ai-lllms-gpt4-activity-7056650568164913152-vTzR?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7056307252592336896": {
+    "content": "Will large language models ever be able to answer \"I don't know\" to an information seeking question? \n\n#ai #llms #gpt4",
+    "url": "https://www.linkedin.com/posts/shahules_ai-llms-gpt4-activity-7056307252592336896-6odt?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7056288177593995265": {
+    "content": "New LLM pre-training is going to be much more challenging in the future with the web being populated by model generated text. This creates a positive feedback loop which leads to models being more confident of their outputs.\n#ai #gpt4 #llms",
+    "url": "https://www.linkedin.com/posts/shahules_ai-gpt4-llms-activity-7056288177593995265-eyWG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7056109479657947136": {
+    "content": "Godot is an excellent example of adapting open-source large language models to serve specific use-case to beat closed-source models like GPT-4. The project finetunes LLAMA 7B models on comment: code pairs to obtain better syntax performance than GPT-4 on GDScript. \nhttps://lnkd.in/gtjmcVjY\n#ai #opensource #gpt4",
+    "url": "https://www.linkedin.com/posts/shahules_ai-opensource-gpt4-activity-7056109479657947136-3mDb?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7054356128498946048": {
+    "content": "Learning LLM Retrieval Day 2/n \n\nIn this tutorial, we are going to put this all together. Paul Graham wrote an awesome (and very long) article on [what he worked on](https://lnkd.in/gpKx_jsz). The article covers his major endeavours over the years and the thinking processes behind the major decisions in his life. Since this is rather long and fact intense, let's see how effective it would be to use llamaindex and chat with the documentation instead.\n\nThis tutorial should help you get a hands-on experience with LLM retrieval and LlamaIndex and a basic understanding so that you can set up something for yourself.\nThe notebook can be found (https://lnkd.in/gwPmdMB9)\n\nThis is part of a LinkedIn Series I'm doing, sharing how to leverage LLMs to use external data as I am exploring the question myself. You can follow the entire series at https://lnkd.in/gtxA5P5e",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7054356128498946048?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7054842657495236608": {
+    "content": "Knowledge retrieval + Language modeling has become the most popular application of LLMs. But is that sufficient to build a product out of LLMs? \nI would say No, and you would agree if you have built an application with it.  Here's a simple method to improve 👇\n\n-  Demonstrate Search Predict (DSP) is a framework from Stanford that relies on passing natural language texts in sophisticated pipelines between an LM and Retrieval Model, Experiments have shown that DSP can produce 120%+ better results than using Vanilla LM.\n\n- DSP forces the model to think in a way that is very similar to Chain of Thoughts (CoTs), which has been shown to be much more effective in preventing hallucinations that yield False positives.\n\n- Check out the DSP paper https://lnkd.in/db56XzbF\n-  GitHub repo https://lnkd.in/dM9V4Sug\n#gpt #ai #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_gpt-ai-opensource-activity-7054842657495236608-VwUP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7054475188171681794": {
+    "content": "Prompt engineering guides are going to be obsolete in near future with the rise of automatic prompt engineering.  It's going to be just like what happened to manual hyperparameter tuning in ML. \nIf you are curious about Auto Prompt Engineering, here are the top papers to read👇\n\n- BFF- better few fine shot\nhttps://lnkd.in/dnrHVFwv\n- AutoPrompt\nhttps://lnkd.in/dGFTghR7\n- Large Language Models Are Human-Level Prompt Engineers\nhttps://lnkd.in/djfQiDhZ\n- The Power of Scale for Parameter-Efficient Prompt Tuning\nhttps://lnkd.in/dv3y5BES\n\nIf you're also active on Twitter, follow for similar content https://lnkd.in/ekDWPZZj\n#ai #nlp #gpt",
+    "url": "https://www.linkedin.com/posts/shahules_ai-nlp-gpt-activity-7054475188171681794-B48e?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7054113859300700160": {
+    "content": "An awesome list of open-source finetuned large language models that you can run locally by Ian Maurer\nhttps://lnkd.in/gv64qYVY\n\nif you're also active on Twitter, follow me for similar content https://lnkd.in/ekDWPZZj\n#ai #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-opensource-activity-7054113859300700160-F973?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7054099882910875649": {
+    "content": "Check out my latest article covering all you should know about the top open-source foundation Large language models available to date🔥 \nhttps://lnkd.in/gnmv46Ks\n#ai #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-opensource-activity-7054099882910875649-cp2B?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7053950704490602496": {
+    "content": "Exciting times for Opensource AI as new promising foundational models and data are being released.\nTogether releases its 1 trillion token pre-train dataset as part of the Redpajama project, which aims to build a family of fully open-source large language models. ⭐️\n\nIf you're active on Twitter, follow me for content like this https://lnkd.in/ekDWPZZj\n#ai #opensource",
+    "url": "https://www.linkedin.com/posts/shahules_ai-opensource-activity-7053950704490602496-LWQS?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7053762787314950144": {
+    "content": "New research on the toxicity of ChatGPT shows that the probability of producing highly toxic responses is much more (6x) when assigned different personas like Adolf Hitler.\n- The research uses the ChatGPT persona feature to experiment with different well-known figures from diverse fields, political alignments, and gender.\n- The research also shows that the toxic responses associated with colonial powers are significantly higher.\nCheck out the paper here https://lnkd.in/ex8hze6A\nFollow me on Twitter for more https://lnkd.in/ekDWPZZj #research #ai",
+    "url": "https://www.linkedin.com/posts/shahules_research-ai-activity-7053762787314950144-bmwy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "1yr"
+  },
+  "7026050061365080064": {
+    "content": "At Hexo, we are looking for Machine Learning interns with deep knowledge in the fundamentals of Machine Learning. We are looking for folks who fundamentally understand how Classical Machine Learning algorithms work under the hood. \n\nOne mandatory requirement for the position is previous expertise competing on Kaggle or contributing to Open source Machine Learning projects. This is a 3-6 month paid internship position that could be extended to a full-time offer based on your performance.\n\nYou will be building the future of Generative Machine Learning starting from Custom Image generation and editing with applications in Gaming, Animation, and AR/VR with us.\n\nIf interested, please email to vignesh@hexo.ai, your CV,  availability, and a list of Kaggle and Open source projects that you have contributed to. Very grateful for sharing this with your network as well!",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7026050061365080064?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2yr"
+  },
+  "7018800793109614592": {
+    "content": "List of awesome websites that I use to research new AI products 🧰\n \n1. theresanaiforthat.com \n2. futurepedia.io \n3. futuretools.io \n4. favird.com\n\nGreat work guys! 🎉\n#ai #indiedev",
+    "url": "https://www.linkedin.com/posts/shahules_ai-indiedev-activity-7018800793109614592-MYr1?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2yr"
+  },
+  "7012307379459432448": {
+    "content": "Mayavoz opensource speech enhancer crossed 150 ⭐s on GitHub 🎉 \n \nThe traction came after Adobe podcasts (beta) recently introduced a voicer enhancer feature. Now it's free and users can test it out.  Obviously, it's going to be paid in the future. \n \nWhy pay when you can get the job done using a free & open-source tool? Checkout #Mayavoz here https://lnkd.in/gsjVbAg7\n#opensource #datascience #podcast",
+    "url": "https://www.linkedin.com/posts/shahules_mayavoz-opensource-datascience-activity-7012307379459432448-Sw5Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2yr"
+  },
+  "7003700303615193088": {
+    "content": "Almost every ML audio model expects clean audio as input for inference. Unfortunately, in a real-time environment, audio is always noisy. To bridge this gap, I am releasing my project #mayavoz: an open-source PyTorch-based audio enhancement toolkit. \n\n It's built to save time for audio researchers and practitioners. It provides easy-to-use pre-trained audio enhancement models and facilitates highly customizable model training.\n\nCheckout mayavoz here https://lnkd.in/gsjVbAg7\nGive it a ⭐  if you loved it :) \n\nSee the demo: noisy speech followed by enhanced speech.\n#audio #machinelearning #datascience #ai",
+    "url": "https://www.linkedin.com/posts/shahules_mayavoz-audio-machinelearning-activity-7003700303615193088-k7-A?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2yr"
+  },
+  "6988453951880773632": {
+    "content": "Great story and vision.",
+    "url": "https://www.linkedin.com/posts/shahules_fifteen-months-ago-i-decided-to-build-a-activity-6988453951880773632-UFfr?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "2yr"
+  },
+  "6896458200191778816": {
+    "content": "Hi connections, my friend Adarsh S is hiring for MantisX. They build powerful training tools for outdoor shooting sports revolutionizing how people train and improve.\n\nThey’re looking for native app developers with 1-3 years of proven experience in building Android or iOS apps who understand the importance of a good user experience and you should be proficient in at least one of Objective-C, Swift, Java, and Kotlin. Not a problem if you don’t know all of them but are confident in one and are willing to pick the others up. Goes without saying that you need to know firebase and is proficient in Github! \n\nIt’s fully remote (forever), they give insanely flexible vacation days, and the starting salary is $2000 per month. They build most mobile apps natively, so you'll be proficient in all things native and you get complete ownership over the app. You need to have great enthusiasm and passion for the products and understand the purpose behind them.\n\nIf this is something that interests you, reach out to Adarsh S or email your resume + your github to guyandtheworld@gmail.com\n\n#oppurtunity #jobalert #androidappdevelopment",
+    "url": "https://www.linkedin.com/posts/shahules_oppurtunity-jobalert-androidappdevelopment-activity-6896458200191778816-GuTo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3yr"
+  },
+  "6868420914757926912": {
+    "content": "I am excited to release Stabilizer, an open-source project that Vignesh Baskaran and myself developed to help you train transformers in a better way and yield enhanced performance and stability.\nWe hope Stabilizer can help the Data science community to efficiently train state-of-the-art transformer models saving cost, time and offering peace of mind.\nCheckout Stabilizer 👉 https://lnkd.in/gewpxBf7\n\nBlog on BERT few sample training instabilities and how Stabilizer solves the problem https://lnkd.in/gPhhJVm9\n\nAny contributions are welcome.\nConsider giving a start 🌟 if you liked it :) \n#datascience #project #nlp",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-project-nlp-activity-6868420914757926912-IVzp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3yr"
+  },
+  "6840579904078254080": {
+    "content": "Hey all, I am finally a 𝐊𝐚𝐠𝐠𝐥𝐞 𝐆𝐫𝐚𝐧𝐝𝐌𝐚𝐬𝐭𝐞𝐫 ( Notebooks). It has been a fantastic journey since I started contributing in 2018. I'm glad to be a part of the kaggle community and to learn a lot. My sincere thanks to all fellow Kagglers and friends. \nMy profile 👉 https://lnkd.in/gHk5qb2h\n#kaggle #thankyou #datascience",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-thankyou-datascience-activity-6840579904078254080-929s?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3yr"
+  },
+  "6802092469585616896": {
+    "content": "I am excited to release Twitter-Emotions today. It is build to extract emotional phrases from sentences and is powered by PyTorch + huggingface 🤗. The application is dockerized and ready to use.\nCheckout twitter-emotions 👉 https://lnkd.in/gB6md6F\nAny contributions are welcome.\nConsider giving a start 🌟 if you liked it :)\n#opensource #nlp #datascience #bert",
+    "url": "https://www.linkedin.com/posts/shahules_opensource-nlp-datascience-activity-6802092469585616896-QkGE?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "3yr"
+  },
+  "6726817987229179904": {
+    "content": "Hey connections, \nDo you want to create an NLP open-source project to showcase in your resume? Are you struggling to do so?\nI have got you covered! I have made a custom sentiment analysis tool from scratch and have written an article on how I did it right from the start to help anyone trying to do similar projects. \nrepo link: https://lnkd.in/dR4NPbe\narticle link: https://bit.ly/3mnXTET\nPyPI package: https://lnkd.in/dceKdGC\n\nConsider Giving a star if you liked my project : )\n\n#datascience #naturallanguageprocessing #opensource #python #beginnersguide",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-naturallanguageprocessing-opensource-activity-6726817987229179904-GDRH?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6720315883425812480": {
+    "content": "Hello connections, \nJoin me and Sandip Bhattacharjee on this live event for Kaggle Days Meetup Delhi NCR at 12:00 tomorrow, I will be giving a talk on sentiment analysis + opensource auto ml library MLJAR, Inc., and Sadip will do a hands-on recommendation engine session. \nLet's catch up tomorrow https://lnkd.in/gWzstpw :)\n#kaggledays #datascience",
+    "url": "https://www.linkedin.com/posts/shahules_kaggledays-datascience-activity-6720315883425812480-Yf-a?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6710542379176337408": {
+    "content": "Hey NLP lovers,\nI will be speaking at a webinar organized by PyData Guna tomorrow @ 11.00 am (IST). I will be covering text representation methods in NLP from the bag of words model to BERT. My aim is to give listeners a basic idea of applied natural language processing.\nSorry for the short notice, feel free to contact Ritesh Yadav for registration.\n#naturallanguageprocessing #datascience #deeplearning",
+    "url": "https://www.linkedin.com/posts/shahules_naturallanguageprocessing-datascience-deeplearning-activity-6710542379176337408-DquN?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6709794999837573120": {
+    "content": "Hey Full Stack folks,\nThere is a very interesting full-time opportunity (remote) for a Full Stack Engineer in RedCarpetUp.com. Here is the complete job description https://lnkd.in/gi62U6j, feel free to ping me for any queries.\n\nApply here  https://lnkd.in/gFvFUbs\n\n#fullstackdevelopment #fullstackdeveloper #hiring",
+    "url": "https://www.linkedin.com/posts/shahules_fullstackdevelopment-fullstackdeveloper-hiring-activity-6709794999837573120-8_9n?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6704605692462014464": {
+    "content": "Today, I am sharing my data science journey with you all, it's not been easy for me. I hope this will be useful to some of you who are dreaming of pursuing a  career in data science.\nFeel free to contact me to hire me.\nThanks a lot, Adarsh S  for the cool infographics. Also, check out his new blog\nhttps://bit.ly/2D1oOoR\n #datascience #machinelearning #kaggle #careerjourney",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-machinelearning-kaggle-activity-6704605692462014464-aT1j?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6704046676212101122": {
+    "content": "Want to do machine learning with a couple of lines of code? Check out #mljar. Now also do instant exploratory data analysis without the pain of writing code.\nCheck out the repository \nhttps://lnkd.in/gQJSqqw\nThanks a lot, Piotr Płoński for the guidance.\n#automl #machinelearning",
+    "url": "https://www.linkedin.com/posts/shahules_mljar-automl-machinelearning-activity-6704046676212101122-8dVk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6700714505166573568": {
+    "content": "",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-positivevibesonly-activity-6700714505166573568-V2Vf?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6692091291615932418": {
+    "content": "Hi Data Science enthusiasts, I have written a series of articles for NLP lovers out there and people who are starting to dive into NLP. Everything comes with complete code.\n\nExploratory Data Analysis for NLP\nhttps://lnkd.in/dEgijWS\n\nWord embedding in NLP with complete workflow explained\nhttps://lnkd.in/dS-bVPF\n\nTips and tricks from Kaggle's top 5 NLP competition\nhttps://lnkd.in/dkbVNWC\n\nData Augmentation in NLP\nhttps://lnkd.in/dFmejfX\n\nAll sorts of suggestions are most welcome.\n#datascience #naturallanguageprocessing",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-naturallanguageprocessing-activity-6692091291615932418-jcG3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6684074364670889984": {
+    "content": "After the ban of applications including TikTok in India, I heard some of the people suggesting that the content is easily transferable to other similar platforms and hence this won't be a huge issue. One major factor which made TikTok a popular platform is its application of AI in the form of a recommendation engine. The app has one of the best recommendation engines which makes the users engage in it for a longer period of time. This is what many other similar applications are missing and even if someone transfers the entire content in TikTok to some other app the user experience will be poles apart. This is the power of AI and the benefit that AI can bring to one's business.\n#TikTok #India #AI",
+    "url": "https://www.linkedin.com/posts/shahules_tiktok-india-ai-activity-6684074364670889984-Cbrs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6681033417594818560": {
+    "content": "I am Loving NLP these days, Got three back to back silver medals in last 3 NLP competitions in #kaggle.\n1. Google Quest ( top 3%)\n2. Twitter sentiment Extraction ( top 1%)\n3. Jigsaw multilingual toxic comment ( top 5%) \n#datascience #naturallanguageprocessing",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datascience-naturallanguageprocessing-activity-6681033417594818560-c2JD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6675301556767875072": {
+    "content": "Releasing our new landing page https://alrt.ai\nDo tell me what you think about it.\n\nGreat job Ameen Azeez ,Nikita Menon and Denin Paul 💥\n #landingpage #alrtai",
+    "url": "https://www.linkedin.com/posts/shahules_landingpage-alrtai-activity-6675301556767875072-Jabx?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6674299626776088576": {
+    "content": "I am a data scientist,but I don't ask my connections to comment down in my posts to get magic materials to be a data scientist in week:) There is no shortcut to learn or master any science or art. It is just hardwork and updating ones knowledge constantly with time.\n\n#machinelearning #datascience",
+    "url": "https://www.linkedin.com/posts/shahules_machinelearning-datascience-activity-6674299626776088576-Hhcs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6672165171047333888": {
+    "content": "Rules for Machine Learning \n1. Do Machine learning like the great engineer you are,not like the great machine learning expert you aren't.\n- Google ML Engineering\n#MachineLearning #googlecloudplatform",
+    "url": "https://www.linkedin.com/posts/shahules_machinelearning-googlecloudplatform-activity-6672165171047333888-U9Oy?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6670724189265252352": {
+    "content": "Whenever I open LinkedIn I can see people sharing some demo of opensource AI project claiming it to be their own.I don't know why do they do this, perhaps to make them look like an AI God to data science enthusiasts and HRs.\n\n #datascience #articialintelligence",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-articialintelligence-activity-6670724189265252352-zHVv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "4yr"
+  },
+  "6652108688368730112": {
+    "content": "That should be the ultimate goal,do something that help improve your skills.keep in mind that indulging in useless arguments on social medias won't help :)",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datascience-activity-6652108688368730112-bN3J?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6646433522573762560": {
+    "content": "",
+    "url": "https://www.linkedin.com/posts/shahules_document-classification-7-pragmatic-approaches-activity-6646433522573762560-SDz-?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6628869592007696384": {
+    "content": "",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-machinelearning-ml-activity-6628869592007696384-nk15?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6625780062950162432": {
+    "content": "Had a good time speaking with Data science enthusiasts at Infopark Kochi ,the session was about  #kaggle  and #datascience .Thanks a lot FAYA for giving me this opportunity.",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datascience-activity-6625780062950162432-8-Lz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6622897191444930560": {
+    "content": "Ever wondered about Exploratory data analysis in NLP ? There are lot more techniques to explore text data other than the usual word clouds. I have written  an article in Neptune.ml  containing everything one should know about EDA for text data.\n\nCheck it out here https://lnkd.in/fxPiR5g\n\n  #datascience #nlp #eda",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-nlp-eda-activity-6622897191444930560--T4K?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6622123792586113024": {
+    "content": "One thing I regret about 2019 is that I rejected many opportunities for public speaking. So in 2020, I have decided to spend some good time helping and speaking with AI enthusiasts.\nI'm happy to announce that the very first talk I will be giving this year will be at the Coimbatore institute of technology (CET) on 24th January. I will be talking about Machine learning modeling and will also do an AMA session.\nRegister here https://infotra.in \n #datascience #workshops #Coimbatore #AMA",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-workshops-coimbatore-activity-6622123792586113024-2W1F?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6618013650554847232": {
+    "content": "Happy to know that I am now ranked in #kaggle top 25 in kernel rankings.Great way to kick-off the year #2020. Moreover, I feel honored to stand with the people that I admire and respect. #datascience #machinelearning",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datascience-machinelearning-activity-6618013650554847232-l05p?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6617020083166375936": {
+    "content": "Hello guys.I have decided to learn Apache Spark and other ML pipelining essentials.I would love to hear suggestions from all the data science enthusiast out here in my LinkedIn network.It would be great if you can suggest me some materials too. #machinelearning \n #datascience #apachespark",
+    "url": "https://www.linkedin.com/posts/shahules_machinelearning-datascience-apachespark-activity-6617020083166375936-Etjg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6612717916133654528": {
+    "content": "",
+    "url": "https://www.linkedin.com/posts/shahules_these-days-people-want-an-easy-recipe-to-activity-6612717916133654528-Hs98?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6595952946943496192": {
+    "content": "Finally a Kaggle Master.\nThis was a dream, a dream doesn't become reality through magic. It takes sweat, determination, and hard work. So am proud of it.\nA couple of announcements with this->\n1. I will get graduated in 2020 and I am looking for placement offers in the field of Data Science. Here is the link to my portfolio website.\nshahules786.github.io.\nPotential employers, please contact me.\n2. I will be concentrating more on the Kaggle competitions tier in the future.\nI would like to extend my gratitude to Andrey Lukyanenko who has been my inspiration and all my fellow Kagglers for supporting me.\nMasha Allah... #kaggle #datasciences #jobplacement",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datasciences-jobplacement-activity-6595952946943496192-bitg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6594834309767626752": {
+    "content": "Well,poor Tom !\n#ai #sarcasm",
+    "url": "https://www.linkedin.com/posts/shahules_ai-sarcasm-activity-6594834309767626752-Y_i-?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6580841771641737216": {
+    "content": "Ever wondered about an alternative to MNIST dataset in Indian language or bored of doing MNIST? Kannada MNIST is here.https://lnkd.in/f8pJQHY\n\nNow it's time to learn CNN in the Indian way. I have written a tutorial on CNN using  Kannada MNIST. Feel free to check it out.\nhttps://lnkd.in/fFYpuF2",
+    "url": "https://www.linkedin.com/posts/shahules_ever-wondered-about-an-alternative-to-mnist-activity-6580841771641737216-SNzj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6572351708649885696": {
+    "content": "#Kaggle recently launched Categorical features encoding challenge, in which the dataset contains only categorical features. I thought it's the perfect time to write a notebook on different effective #encoding techniques. Here is the link to my notebook.\nhttps://lnkd.in/fTShTHM",
+    "url": "https://www.linkedin.com/posts/shahules_an-overview-of-encoding-techniques-kaggle-activity-6572351708649885696-zTNl?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6564385482829070336": {
+    "content": "I recently participated in one of the ML challenges hosted by one the most respected educational institutions in the country. Unfortunately, after looking at the leaderboard and submitting my prediction I understood that their train and test set have almost same samples ,any model which was getting an RMSE of more than 200 in CV went on to get a 0.4 RMSE  in the test ! I immediately mentioned the issue to the organizers ,but got poor response.Anyway I immediately stopped wasting time on it and moved on..\nThis is a classical example of how not to launch a ML competition.\n #ml #hackathon2019 #iitmadras",
+    "url": "https://www.linkedin.com/posts/shahules_ml-hackathon2019-iitmadras-activity-6564385482829070336-b20G?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6558926590556901377": {
+    "content": "Yes, Finally in kaggle Top #100 in two tiers.",
+    "url": "https://www.linkedin.com/posts/shahules_yes-finally-in-kaggle-top-100-in-two-tiers-activity-6558926590556901377-vwJP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6553922130864631808": {
+    "content": "My kaggle swag prize for datascience for good ,city of LA competition just got delivered.\nIt's not money,but the swag that means a lot to me.\nKeep learning and keep trying.\n #datascience #kaggle #prize",
+    "url": "https://www.linkedin.com/posts/shahules_datascience-kaggle-prize-activity-6553922130864631808-sQNA?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  },
+  "6526468870222508032": {
+    "content": "I as a data science enthusiast feel honored and proud today for being promoted as a  #Kaggle kernels expert.I would like to thank all my fellow kagglers and extend special thanks to the kaggle grand master Andrey Lukyanenko, for his valuable guidance which was highly beneficial. #datascience #machinelearning #thanks #Kaggle #school_of_AI",
+    "url": "https://www.linkedin.com/posts/shahules_kaggle-datascience-machinelearning-activity-6526468870222508032-bmXp?utm_source=share&utm_medium=member_desktop&rcm=ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74",
+    "date": "5yr"
+  }
+}

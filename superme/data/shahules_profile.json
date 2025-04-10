@@ -1,0 +1,614 @@
+{
+  "skills": [
+    {
+      "name": "Data science"
+    },
+    {
+      "name": "Machine Learning"
+    },
+    {
+      "name": "Data Analytics"
+    },
+    {
+      "name": "Artificial Intelligence (AI)"
+    }
+  ],
+  "experience": [
+    {
+      "locationName": "San Francisco Bay Area",
+      "entityUrn": "urn:li:fs_position:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,2269933730)",
+      "geoLocationName": "San Francisco Bay Area",
+      "geoUrn": "urn:li:fs_geo:90000084",
+      "companyName": "ragas",
+      "timePeriod": {
+        "startDate": {
+          "month": 3,
+          "year": 2023
+        }
+      },
+      "description": "Building the opensource standard for testing and evaluating LLM application (YC W24)\nhttps://docs.ragas.io",
+      "company": {
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "industries": [
+          "Computer Software"
+        ]
+      },
+      "title": "Founder",
+      "region": "urn:li:fs_region:(us,84)",
+      "companyUrn": "urn:li:fs_miniCompany:96156729",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG-2sLraXG92w/company-logo_"
+    },
+    {
+      "entityUrn": "urn:li:fs_position:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,1534432837)",
+      "companyName": "Kaggle",
+      "timePeriod": {
+        "startDate": {
+          "month": 9,
+          "year": 2021
+        }
+      },
+      "company": {
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "industries": [
+          "Information Technology and Services"
+        ]
+      },
+      "title": "Kaggle Grandmaster ( Kernels)",
+      "companyUrn": "urn:li:fs_miniCompany:1061689",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGbmegZ9h1otw/company-logo_"
+    },
+    {
+      "locationName": "Cardiff, Wales, United Kingdom",
+      "entityUrn": "urn:li:fs_position:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,1912711713)",
+      "geoLocationName": "Cardiff, Wales, United Kingdom",
+      "geoUrn": "urn:li:fs_geo:103349733",
+      "companyName": "AMPLYFI",
+      "timePeriod": {
+        "endDate": {
+          "month": 2,
+          "year": 2023
+        },
+        "startDate": {
+          "month": 10,
+          "year": 2021
+        }
+      },
+      "description": "Building ML pipelines for DeepInsight.",
+      "company": {
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "industries": [
+          "Computer Software"
+        ]
+      },
+      "title": "Machine Learning Engineer",
+      "region": "urn:li:fs_region:(gb,0)",
+      "companyUrn": "urn:li:fs_miniCompany:10317047",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQHDgsJuo1a5ZQ/company-logo_"
+    },
+    {
+      "locationName": "Gurugram, Haryana, India",
+      "entityUrn": "urn:li:fs_position:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,1707803466)",
+      "geoLocationName": "Gurugram, Haryana, India",
+      "geoUrn": "urn:li:fs_geo:115884833",
+      "companyName": "FinBox",
+      "timePeriod": {
+        "endDate": {
+          "month": 9,
+          "year": 2021
+        },
+        "startDate": {
+          "month": 12,
+          "year": 2020
+        }
+      },
+      "description": "Mining Short Text Messages and Alternative data for credit underwriting.",
+      "company": {
+        "employeeCountRange": {
+          "start": 201,
+          "end": 500
+        },
+        "industries": [
+          "Financial Services"
+        ]
+      },
+      "title": "Data Scientist",
+      "region": "urn:li:fs_region:(in,0)",
+      "companyUrn": "urn:li:fs_miniCompany:13438742",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHxeidH9X8A_Q/company-logo_"
+    },
+    {
+      "entityUrn": "urn:li:fs_position:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,1676768733)",
+      "companyName": "MLJAR, Inc.",
+      "timePeriod": {
+        "endDate": {
+          "month": 12,
+          "year": 2020
+        },
+        "startDate": {
+          "month": 7,
+          "year": 2020
+        }
+      },
+      "description": "mljar automates the common way to build complete Machine Learing Pipeline to find the best ML models for your data! \n",
+      "company": {
+        "employeeCountRange": {
+          "start": 2,
+          "end": 10
+        },
+        "industries": [
+          "Computer Software"
+        ]
+      },
+      "title": "Open Source ML Contributor @ mljar",
+      "companyUrn": "urn:li:fs_miniCompany:17936019",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C560BAQEGsvlpjDOY8A/company-logo_"
+    }
+  ],
+  "education": [
+    {
+      "entityUrn": "urn:li:fs_education:(ACoAACHEQ1kBau5gFVkfSgsSB2flft8HtbfWS74,395865766)",
+      "grade": "CGPA 8.01",
+      "fieldOfStudyUrn": "urn:li:fs_fieldOfStudy:100189",
+      "degreeName": "Bachelor of Technology",
+      "schoolName": "Govt.model engineering college",
+      "fieldOfStudy": "Computer Science"
+    }
+  ],
+  "volunteer": [],
+  "certifications": [
+    {
+      "authority": "Coursera",
+      "name": "Introduction to Data Science in Python",
+      "timePeriod": {
+        "startDate": {
+          "month": 2,
+          "year": 2018
+        }
+      },
+      "licenseNumber": " N4UPEAK6L5V9",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "UukVUCfySXG0dWby8SUA9A=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/N4UPEAK6L5V9"
+    },
+    {
+      "authority": "Coursera",
+      "name": "Applied Plotting, Charting & Data Representation in Python",
+      "timePeriod": {
+        "startDate": {
+          "month": 3,
+          "year": 2018
+        }
+      },
+      "licenseNumber": "DFRTUAWSAC8P",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "zQvnR5N9TQac3xp5dbG3aA=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/DFRTUAWSAC8P"
+    },
+    {
+      "authority": "Coursera",
+      "name": "    Applied Machine Learning in Python",
+      "timePeriod": {
+        "startDate": {
+          "month": 9,
+          "year": 2018
+        }
+      },
+      "licenseNumber": "H96CCZVWNFY3",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "vWafemJfSvyU+DZssYoHUA=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/H96CCZVWNFY3"
+    },
+    {
+      "authority": "Coursera",
+      "name": "Applied Text Mining in Python",
+      "timePeriod": {
+        "startDate": {
+          "month": 12,
+          "year": 2018
+        }
+      },
+      "licenseNumber": "DJRDBDLM5WQA",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "ogXFhwxfQwO14r/Mq/UOCQ=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/DJRDBDLM5WQA"
+    },
+    {
+      "authority": "Coursera",
+      "name": "Neural Networks and Deep Learning",
+      "timePeriod": {
+        "startDate": {
+          "month": 7,
+          "year": 2019
+        }
+      },
+      "licenseNumber": " 7M59SM9NWPEL",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "WBAbMQA5S2aWI0kFPqNoNw=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/7M59SM9NWPEL"
+    },
+    {
+      "authority": "Coursera",
+      "name": "    Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+      "timePeriod": {
+        "startDate": {
+          "month": 7,
+          "year": 2019
+        }
+      },
+      "licenseNumber": "EGCMDNWUEDU2",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "mwlhM1iaR0KHjZReAage/A=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/EGCMDNWUEDU2"
+    },
+    {
+      "authority": "Coursera",
+      "name": "Structuring Machine Learning Projects",
+      "timePeriod": {
+        "startDate": {
+          "month": 8,
+          "year": 2019
+        }
+      },
+      "licenseNumber": "Q9A4NSAR2EUL",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "7FmRPV4lR0uOC7fa87rByQ=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/verify/Q9A4NSAR2EUL"
+    },
+    {
+      "authority": "Coursera",
+      "name": "    End-to-End Machine Learning with TensorFlow on GCP",
+      "timePeriod": {
+        "startDate": {
+          "month": 4,
+          "year": 2020
+        }
+      },
+      "licenseNumber": "    TT9MQ57URQMX",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "N38GfX1kTFSsBNC6ANs/Nw=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://coursera.org/share/1b8170a4d24f324c31e5767c0e14bacc"
+    },
+    {
+      "authority": "Coursera",
+      "name": "Production Machine Learning Systems",
+      "timePeriod": {
+        "startDate": {
+          "month": 5,
+          "year": 2020
+        }
+      },
+      "licenseNumber": "B36K87DUR4SA",
+      "company": {
+        "objectUrn": "urn:li:company:2453129",
+        "entityUrn": "urn:li:fs_miniCompany:2453129",
+        "name": "Coursera",
+        "showcase": false,
+        "active": true,
+        "logo": {
+          "com.linkedin.common.VectorImage": {
+            "artifacts": [
+              {
+                "width": 200,
+                "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=zEWio5LdJHFvbnU18MVdha6Bjf_wC0TsPoD87e56g_A",
+                "expiresAt": 1749686400000,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hneW8Xd68R1xqwxhn7CLmhL8fxIhrmrtKr2CgBUysdc",
+                "expiresAt": 1749686400000,
+                "height": 100
+              },
+              {
+                "width": 400,
+                "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530042036/coursera_logo?e=1749686400&v=beta&t=hGNh7K9s4O4X14iZ4bAibDcZdATBM3VgpQcevy6v0mE",
+                "expiresAt": 1749686400000,
+                "height": 400
+              }
+            ],
+            "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_"
+          }
+        },
+        "universalName": "coursera",
+        "dashCompanyUrn": "urn:li:fsd_company:2453129",
+        "trackingId": "A7TOHe62Q+qXgZ3oL5ERLw=="
+      },
+      "displaySource": "coursera.org",
+      "companyUrn": "urn:li:fs_miniCompany:2453129",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/B36K87DUR4SA"
+    }
+  ],
+  "languages": [],
+  "projects": [],
+  "publications": [],
+  "honors": []
+}
